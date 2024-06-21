@@ -1,0 +1,33 @@
+* {margin: 0px auto; padding: 0px;}
+
+/* Main + standard styling */
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    transition: all 1s ease-in-out;
+    position: relative;
+    width: 100vw!important;
+    height: 100vh!important;
+    overflow: hidden!important;
+}
+
+/* Pages styling */
+.page {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+/* Innovations */
+.innovation {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}

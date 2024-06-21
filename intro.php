@@ -1,3 +1,3 @@
-<div id="intro">
-    
+<div id="intro" class="page">
+
 </div>
