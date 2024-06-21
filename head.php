@@ -9,6 +9,11 @@
     <link href="dashboard.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="innovation.css" type="text/css" rel="stylesheet" media="screen"/>
 
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
     <!-- Site title & icon -->
     <title>Enabling Technologies</title>
     <link rel="icon" href="Logo/makam-logo_black-icon.svg">

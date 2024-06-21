@@ -15,8 +15,28 @@ body {
     width: 100vw!important;
     height: 100vh!important;
     overflow: hidden!important;
+
+    /* Main font-family */
+    font-family: "Oxanium", sans-serif!important;
+    font-size: 1em;
+    color: white;
 }
 
+/* Font & Text */
+
+H1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2em;
+}
+p, input, a, b, form, button {
+    font-family: "Oxanium", sans-serif!important;
+    font-size: 1em;
+}
 /* Pages styling */
 .page {
     position: absolute;
@@ -30,4 +50,30 @@ body {
     position: absolute;
     width: 100vw;
     height: 100vh;
+}
+
+/* Buttons styling */
+.button, button, form button, form .button {
+    /* background */
+    background: transparent;
+
+    /* Border and text */
+    border: solid #25A93A 2px;
+    border-radius: 20px;
+    color: #25A93A;
+    font-weight: 900;
+
+    /* inner-element */
+    padding: 5px 30px 5px 30px;
+}
+
+
+
+/*                         Hover effect                  */
+
+/* Button hover */
+.button:hover, button:hover, form button:hover, form .button:hover {
+    /* background */
+    background: #25A93A;
+    color: white;
 }
