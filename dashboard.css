@@ -1,0 +1,47 @@
+#dashboard {
+    z-index: 4; /* This puts the the page on the second place */
+}
+
+/* dash board header styling */
+#dashboard-header {
+    height: 80px;
+    text-align: center;
+    position: relative;
+}
+
+/* dashboard img/logo styling */
+#dashboard-header img {
+    height: 80%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    position: inherit;
+}
+
+/* Dashboard list */
+#dashboard-list {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: brown;
+
+    /* items positioning */
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+/* Dashboard list items */
+.dashboard-list-item {
+    background-color: chocolate;
+
+    /* item size */
+    width: calc(33%);
+    height: calc(49%);
+
+    /* items positioning */
+    position: relative;
+    display: inline-block;
+    line-height: 2;
+
+    /* spacing */
+    padding-top: 10px;
+}
