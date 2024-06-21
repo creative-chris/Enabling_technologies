@@ -22,6 +22,11 @@ body {
     color: white;
 }
 
+/* animation */
+body, header, main, main div {
+    transition: all 1s ease-in-out!important;
+}
+
 /* Font & Text */
 
 H1 {

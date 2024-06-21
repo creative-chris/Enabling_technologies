@@ -1,5 +1,7 @@
 #dashboard {
     z-index: 4; /* This puts the the page on the second place */
+    
+    transition: all 1s ease-in-out!important;
 }
 
 /* dash board header styling */
@@ -21,17 +23,23 @@
 #dashboard-list {
     height: calc(100vh - 80px);
     width: 100%;
-    background-color: brown;
 
     /* items positioning */
     position: relative;
     text-align: center;
     float: left;
 }
+.inner-list-item{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.205);
+}
 
 /* Dashboard list items */
 .dashboard-list-item {
-    background-color: chocolate;
+    /* background */
+    background-color: rgba(255, 230, 0, 0.089);
+    background-size: cover;
 
     /* item size */
     width: calc(33%);
@@ -43,5 +51,36 @@
     line-height: 2;
 
     /* spacing */
-    padding-top: 10px;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+/* Dashboard list items: childs */
+
+#dashboard-list-item-1 {
+    background-image: url(image/background/65c4b957edd4b837ed56718644824fa0.jpg);
+}
+#dashboard-list-item-2 {
+    background-image: url(image/background/9e74ecd8e520cf095619105fac7ed34a.jpg);
+}
+#dashboard-list-item-3 {
+    background-image: url(image/background/ce2b57c98654ce4de9d731da84ffd04c.jpg);
+}
+#dashboard-list-item-4 {
+    background-image: url(image/background/1799ee4805ccdb7b5feec2f388a0e528.jpg);
+}
+#dashboard-list-item-5 {
+    background-image: url(image/background/0ec69056744e3f7d9217210136fa96be.jpg);
+}
+#dashboard-list-item-6 {
+    background-image: url(image/background/1799ee4805ccdb7b5feec2f388a0e528.jpg);
+}
+
+
+/*                                               HOVER               */
+
+.dashboard-list-item:hover {
+    
+    transition: all 1s ease-in-out!important;
+    filter: blur(8px);
 }
