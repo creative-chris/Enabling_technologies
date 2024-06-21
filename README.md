@@ -1,4 +1,4 @@
-# Enabling_technologies
+# The project
 My Enabling technologies project, Semester 7
 
 # The assignment
@@ -14,6 +14,13 @@ applications. Through a series of immersive demos and interactive experiences, v
 gain hands-on experience with AI, robotics, IoT, materials innovation, energy storage, photonics,
 and life science diagnostics. Each section of the hub is dedicated to a specific technology,
 offering a blend of entertainment and education.
+
+# Build
+This POC is a 1 page site build by multiple components made by php, included and
+linked with each other in order to work seamlessly.
+
+# Example / Result
+-
 
 # Disclaimer
 This is a POC only ment for my assessment. This is not a working platform, merely just a
