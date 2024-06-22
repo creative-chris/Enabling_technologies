@@ -38,7 +38,7 @@ h2 {
 h3 {
     font-size: 2em;
 }
-p, input, a, b, form, button {
+p, input, a, b, form, button, label {
     font-family: "Oxanium", sans-serif!important;
     font-size: 1em;
 }
