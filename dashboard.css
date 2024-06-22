@@ -2,6 +2,7 @@
     z-index: 4; /* This puts the the page on the second place */
     
     transition: all 1s ease-in-out!important;
+    left: -100vw;
 }
 
 /* dash board header styling */
@@ -75,7 +76,7 @@
 
 /* inner list */
 ul li .inner-list-item {
-    width: 100%;
+    width: auto;
     height: auto;
 
     /* positioning */
@@ -86,14 +87,16 @@ ul li .inner-list-item {
 }
 
 /* list item icons */
-
 ul li div .list-icon {
-    max-height: 30px;
+    height: 30px;
+    border-radius: 10%;
+    box-shadow: 8px 8px 8px black;
 }
 
 /* icon label */
 .list-icon-label {
     opacity: 0;
+    text-shadow: 8px 8px 8px black;
 }
 
 /*                                               HOVER               */
@@ -106,7 +109,6 @@ ul li div .list-icon {
 
 ul li:hover .inner-list-item {
     backdrop-filter: blur(8px);
-    background: #24242448;
 }
 
 ul li:hover .list-icon-label {
