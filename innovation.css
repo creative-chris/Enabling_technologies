@@ -1,0 +1,85 @@
+.innovation {
+    background: black;
+}
+
+/* header */
+.innovation-header {
+    height: 80px;
+    
+    /* positioning */
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+
+/* inner header */
+.innovation-header-nav ul {
+    text-align: center;
+}
+.innovation-header-nav ul li {
+    overflow: visible;
+}
+.innovation-header-nav ul li img {
+    height: 40px;
+}
+
+/* current page */
+.current {
+    opacity: 1!important;
+    filter: drop-shadow(0px 0px 10px lightblue);
+}
+.innovation-header-nav ul li:first-child img {
+    opacity: .3;
+    padding: 0px 10px 0px 10px;
+    transition: all 1s ease-in-out!important;
+}
+
+/* background */
+
+.innovation-background {
+    width: 100%;
+    position: absolute;
+    top: calc(0% + 80px);
+}
+
+/* inner innovation */
+
+.inner-innovation {
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    /* size */
+    height: 50vh;
+    width: 50%;
+    padding: 20px;
+
+    /* positioning */
+    top: 50%;
+    transform: translate(0%, -50%);
+    position: relative;
+    z-index: 3;
+}
+
+/*                         Hover effect                  */
+
+.innovation-header-nav ul li:first-child img:hover {
+    opacity: 1;
+}
+
+/* icon glow - color */
+.innovation-header-nav ul li:first-child #icon1:hover {
+    filter: drop-shadow(0px 0px 20px green);
+}
+.innovation-header-nav ul li:first-child #icon3:hover {
+    filter: drop-shadow(0px 0px 10px darkblue);
+}
+.innovation-header-nav ul li:first-child #icon4:hover {
+    filter: drop-shadow(0px 0px 10px red);
+}
+.innovation-header-nav ul li:first-child #icon5:hover {
+    filter: drop-shadow(0px 0px 10px grey);
+}
+.innovation-header-nav ul li:first-child #icon6:hover {
+    filter: drop-shadow(0px 0px 10px teal);
+}
