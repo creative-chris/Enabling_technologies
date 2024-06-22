@@ -1,3 +1,4 @@
+<?php include("mail.php");?>
 <!DOCTYPE html>
 <html>
 <?php include("head.php"); ?>

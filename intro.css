@@ -16,18 +16,3 @@
     display: block;
     margin-left: 20px;
 }
-
-/* input - email */
-#intro #intro-inner form input {
-    background: transparent;
-
-    padding: 20px;
-   
-    /* text styling */
-    text-align: center;
-    color: white;
-
-    /* Border styling */
-    border: 0px transparent;
-    border-bottom: solid 1px white;
-}

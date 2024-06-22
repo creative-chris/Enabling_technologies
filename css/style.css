@@ -72,6 +72,21 @@ p, input, a, b, form, button, label {
     padding: 5px 30px 5px 30px;
 }
 
+/* form */
+
+input {
+    background: transparent;
+
+    padding: 20px;
+   
+    /* text styling */
+    text-align: center;
+    color: white;
+
+    /* Border styling */
+    border: 0px transparent;
+    border-bottom: solid 1px white;
+}
 
 
 /*                         Hover effect                  */
