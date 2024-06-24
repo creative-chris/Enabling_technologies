@@ -1,0 +1,65 @@
+@media only screen and (max-width: 900px) {
+
+    /* Pages */
+    .page {
+        overflow: hidden!important;
+    }
+
+    /* intro page >>> */
+
+    /* intro page Logo */
+    #logo {
+        width: 90%;
+    }
+
+    /* intro page inner */
+    #intro-inner {
+        text-align: center;
+    }
+
+    /* Dashboard page >>>> */
+    
+    /* dashboard inner */
+    #inner-dashboard {
+        overflow-y: scroll;
+    }
+
+    /* dashboard logo */
+    #dashboard-logo {
+        width: 200px;
+        height: 50px!important;
+    }
+
+    /* Dashboard list */
+    #dashboard-list {
+        display: block!important;
+        width: 100%;
+    }
+
+    /* Dashboard list items */
+    .dashboard-list-item {
+        height: 50vh!important;
+        width: 100vw!important;
+        position: relative;
+        float: none;
+        display: block;
+    }
+
+    /* Innovation page >>>> */
+
+    .innovation  {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    /* inner innovation */
+    .inner-innovation {
+        width: 90vw!important;
+    }
+
+    /* innovation form */
+    .inner-innovation  form {
+        text-align: center;
+    }
+}

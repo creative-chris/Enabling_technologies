@@ -4,7 +4,7 @@
     
     <!-- CSS section -->
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
-    <link href="css/responsive.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="responsive.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="intro.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="dashboard.css" type="text/css" rel="stylesheet" media="screen"/>
     <link href="innovation.css" type="text/css" rel="stylesheet" media="screen"/>

@@ -1,6 +1,6 @@
 <div id="dashboard" class="page">
     <div id="dashboard-header">
-        <img src="image/logo.png" />
+        <img src="image/logo.png" id="dashboard-logo"/>
     </div>
     <div id="inner-dashboard">
         <!-- List with enabling technologies -->
