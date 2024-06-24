@@ -20,6 +20,6 @@
 
     <!-- Javascript section -->
     <script src="js/jquery-3.7.1.min.js"></script> 
-    <script src="js/animation.js" defer></script>
+    <script src="animation.js" defer></script>
     <script src="js/error.js" defer></script>
 </head>

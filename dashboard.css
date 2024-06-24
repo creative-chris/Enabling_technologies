@@ -2,7 +2,6 @@
     z-index: 4; /* This puts the the page on the second place */
     
     transition: all 1s ease-in-out!important;
-    left: -100vw;
 }
 
 /* dash board header styling */

@@ -1,6 +1,5 @@
 #intro {
     z-index: 5; /* This puts the the page on top */
-    left: -100vw;
 }
 
 /* intro inner - first child */

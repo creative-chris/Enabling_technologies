@@ -42,8 +42,8 @@
         <b>Do you want more infomation?</b><br>
         <p>Leave your name and e-mail. Then we'll send you all the information you need!</p><br>
         <form>
-            <input type="text" name="username" placeholder="Name"/><br>
-            <input type="email" name="email" placeholder="E-mail"/><br>
+            <input type="text" name="name" placeholder="Name" id="name"/><br>
+            <input type="email" name="email" placeholder="E-mail" id="email"/><br>
             <br>
             <input type="submit" name="submit" class="button"/><br>
         </form>
