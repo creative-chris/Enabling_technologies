@@ -1,14 +1,44 @@
 
-// 404 message alert
+// 404 message alert >>>
 function noproceed(){
-    alert("THis page doesn't exist yet.");
+    alert("This page doesn't exist yet.");
 };
 
+// innovation page icons >>
 $('#icon1').click(function(){
-    alert("THis page doesn't exist yet.");
+    alert("This page doesn't exist yet.");
+});
+$('#icon3').click(function(){
+    alert("This page doesn't exist yet.");
+});
+$('#icon4').click(function(){
+    alert("This page doesn't exist yet.");
+});
+$('#icon5').click(function(){
+    alert("This page doesn't exist yet.");
+});
+$('#icon6').click(function(){
+    alert("This page doesn't exist yet.");
 });
 
-// On mail send >>
+// Dashboard page >>
+$('#dashboard-list-item-1').click(function(){
+    alert("This page doesn't exist yet.");
+});
+$('#dashboard-list-item-3').click(function(){
+    alert("This page doesn't exist yet.");
+});
+$('#dashboard-list-item-4').click(function(){
+    alert("This page doesn't exist yet.");
+});
+$('#dashboard-list-item-5').click(function(){
+    alert("This page doesn't exist yet.");
+});
+$('#dashboard-list-item-6').click(function(){
+    alert("This page doesn't exist yet.");
+});
+
+// On mail send >>>
 
 // input boolean
 var nameinput = false;
@@ -36,21 +66,21 @@ function mailsend() {
     // }
     // -----
 
-    if(emailinputGET == "") {
-        nameinput = true;
-        emailinput - true;
-    }
-    // If Booleans are true, this message will popup
-    if(nameinput && emailinput == true) {
+    // if(emailinputGET == "") {
+    //     nameinput = true;
+    //     emailinput - true;
+    // }
+    // // If Booleans are true, this message will popup
+    // if(nameinput && emailinput == true) {
 
-        alert("Thank you, A mail has been send to you." );
-    }
+    //     alert("Thank you, A mail has been send to you." );
+    // }
 
-    // Else if both booleans are still False
-    else{
-        alert("You have to fill in the form before we send you something." );
-    }
+    // // Else if both booleans are still False
+    // else{
+    //     alert("You have to fill in the form before we send you something." );
+    // }
 
-    console.log(nameinputGET.value.lenght + emailinputGET.value.lenght);
+    // console.log(nameinputGET.value.lenght + emailinputGET.value.lenght);
 };
 
