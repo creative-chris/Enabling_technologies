@@ -10,7 +10,7 @@
                     <img src="image/icons/application.png" id="icon5"/>
                     <img src="image/icons/digital.png" id="icon6"/>
                 </li>
-                <li><img src="image/logo.png" /></li>
+                <li><img src="image/logo.png" id="innovation-logo"/></li>
             </ul>
         </nav>
     </div>
