@@ -5,10 +5,10 @@
                 <li>
                     <img src="image/icons/quantum.png" id="icon1"/>
                     <img src="image/icons/ai.png" class="current" id="icon2"/>
-                    <img src="image/icons/autonomous.png" id="icon3"/>
-                    <img src="image/icons/energy.png" id="icon4"/>
-                    <img src="image/icons/application.png" id="icon5"/>
-                    <img src="image/icons/digital.png" id="icon6"/>
+                    <img src="image/icons/autonomous.png" class="non-function"  id="icon3"/>
+                    <img src="image/icons/energy.png" class="non-function"  id="icon4"/>
+                    <img src="image/icons/application.png" class="non-function"  id="icon5"/>
+                    <img src="image/icons/digital.png" class="non-function"  id="icon6"/>
                 </li>
                 <li><img src="image/logo.png" id="innovation-logo"/></li>
             </ul>
@@ -41,11 +41,11 @@
         <br>
         <b>Do you want more infomation?</b><br>
         <p>Leave your name and e-mail. Then we'll send you all the information you need!</p><br>
-        <form>
-            <input type="text" name="name" placeholder="Name" id="name"/><br>
-            <input type="email" name="email" placeholder="E-mail" id="email"/><br>
+        <form name="emailer">
+            <input type="text" name="name" placeholder="Name" value="" id="name" required/><br>
+            <input type="email" name="email" placeholder="E-mail" value="" id="email" required/><br>
             <br>
-            <input type="submit" name="submit" class="button"/><br>
+            <input type="submit" name="submit" onclick="mailsend()" class="button"/><br>
         </form>
     </div>
 </div>
