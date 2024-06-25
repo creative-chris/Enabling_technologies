@@ -3,6 +3,11 @@
 <html>
 <?php include("head.php"); ?>
 <body>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+        }
+    </script>
     <div id="container">
         <header></header>
         <main>
