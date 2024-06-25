@@ -19,6 +19,8 @@ offering a blend of entertainment and education.
 This POC is a 1 page site build by multiple components made by php, included and
 linked with each other in order to work seamlessly.
 
+The POC is responsive and has working functions sutch as: PWA & sending mail with document attachment
+
 # Example / Result
 -
 

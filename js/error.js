@@ -49,8 +49,8 @@ var emailinput = false;
 // var nameinputGET = document.getElementById("name");
 // var emailinputGET = document.getElementById("email");
 
-var nameinputGET  = document.forms["emailer"]["name"].value;
-var emailinputGET = document.forms["emailer"]["email"].value;
+// var nameinputGET  = document.forms["emailer"]["name"].value;
+// var emailinputGET = document.forms["emailer"]["email"].value;
 
 
 

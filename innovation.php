@@ -1,3 +1,4 @@
+
 <div id="AI" class="innovation">
     <div class="innovation-header">
         <nav class="innovation-header-nav">
@@ -41,11 +42,11 @@
         <br>
         <b>Do you want more infomation?</b><br>
         <p>Leave your name and e-mail. Then we'll send you all the information you need!</p><br>
-        <form name="emailer">
+        <form name="post" action="" method="post">
             <input type="text" name="name" placeholder="Name" value="" id="name" required/><br>
             <input type="email" name="email" placeholder="E-mail" value="" id="email" required/><br>
             <br>
-            <input type="submit" name="submit" onclick="mailsend()" class="button"/><br>
+            <input type="submit" name="submit" value="submit" class="button" /><br>
         </form>
     </div>
 </div>

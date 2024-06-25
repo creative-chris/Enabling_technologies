@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
 
     $email = $_POST['email']; // the user's e-mail
 	$name = $_POST['name']; // the user's name
-    $file = 'doc/Centre-of-Expertise-HTSM_Fontys.pdf'; // attachment file
+    // $file = 'doc/Centre-of-Expertise-HTSM_Fontys.pdf'; // attachment file
 	
     //                                              mail
 	$subject_client = "Fontys Enabling Technologies";
