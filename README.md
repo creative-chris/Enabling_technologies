@@ -16,13 +16,24 @@ and life science diagnostics. Each section of the hub is dedicated to a specific
 offering a blend of entertainment and education.
 
 # Build
+
+- PHP
+- html
+- css
+- Javascript & Jquery framework
+- Json (for manifest)
+
+Api: WorkBox (from Google)
+
 This POC is a 1 page site build by multiple components made by php, included and
 linked with each other in order to work seamlessly.
 
 The POC is responsive and has working functions sutch as: PWA & sending mail with document attachment
+For the PWA I use google's API workbox for caching and offline functions.
 
 # Example / Result
--
+Live:         https://makam.co.nl/Enabling_technologies/
+Test video:   https://www.dropbox.com/scl/fi/gkolz906384l7qe2kv47u/Screen_Recording_20240625_094917_Chrome.mp4?rlkey=6tpfnb9rtl01sg8fc10tttsev&st=qpuixfq3&dl=0
 
 # Disclaimer
 This is a POC only ment for my assessment. This is not a working platform, merely just a
